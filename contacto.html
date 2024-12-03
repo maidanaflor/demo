@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Viajes Sin Fronteras</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="h-text">
+            <div class="container">
+                <h1>Estamos para ayudarte</h1>
+                <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                <form action="tu_servidor.php" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+        
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>    
+
+        <div class="container-boton">
+            <a href="https://wa.me/5491160232274?text=Quiero%20informacion" target="_blank">
+                <img class="boton" src="icono.png" alt="">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footercontent">
+            <p>&copy; 2024 Todos los derechos reservados - Viajes Sin Fronteras</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
